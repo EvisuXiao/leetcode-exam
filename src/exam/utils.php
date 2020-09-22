@@ -11,9 +11,7 @@
  * Then exit
  * @param mixed $val
  */
-function dd(...$val) {
-    foreach($val as $v) {
-        var_dump($v);
-    }
+function dd($val) {
+    var_dump($val);
     die;
 }

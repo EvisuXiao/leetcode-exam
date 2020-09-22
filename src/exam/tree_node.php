@@ -10,8 +10,17 @@
  * Definition for a binary tree node.
  */
 class TreeNode {
-    public $val = null;
+    /**
+     * @var int
+     */
+    public $val = 0;
+    /**
+     * @var TreeNode
+     */
     public $left = null;
+    /**
+     * @var TreeNode
+     */
     public $right = null;
     function __construct($value) { $this->val = $value; }
 }
